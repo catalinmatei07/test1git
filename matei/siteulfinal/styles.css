@@ -1,0 +1,173 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.nav {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 32px 0px;
+}
+
+.left-side {
+	padding: 0 10%;
+}
+
+.left-side h2 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-weight: normal;
+}
+
+.right-side {
+	padding: 0 10%;
+	justify-self: end;
+}
+
+.right-side ul li {
+	display: inline;
+	margin-left: 32px;
+}
+
+.right-side ul li a {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+.hrr {
+	display: grid;
+	width: 100vw;
+	justify-items: center;
+}
+
+hr {
+	width: 90vw;
+	opacity: 0.2;
+}
+
+.section1 {
+	display: grid;
+	justify-items: center;
+}
+
+.section1 h1 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	margin-top: 32px;
+	text-align: center;
+}
+
+.section1 h3 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	margin-top: 8px;
+	width: 645px;
+	font-weight: normal;
+	color: #000000;
+	opacity: 0.5;
+	font-size: 16px;
+	text-align: center;
+}
+
+.section2 {
+	margin-top: 32px;
+	display: grid;
+	justify-items: center;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.person {
+	display: grid;
+	justify-items: center;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.person div:nth-child(2) {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.person div:nth-child(3) {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: #000000;
+	opacity: 0.5;
+}
+
+.person div:nth-child(1) img {
+	object-fit: cover;
+	height: 210px;
+	width: 210px;
+}
+
+.section2-center {
+	display: grid;
+	justify-content: center;
+}
+
+
+.crud-img {
+	object-fit: cover;
+	height: 65px;
+	width: 65px;
+}
+
+.container-crud {
+	width: 90vw;
+	display: grid;
+}
+
+.trstyle {
+	background-color: #F2F5F7;
+	height: 32px;
+	color: #342432;
+}
+
+.trstyle td{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.buttonstyle {
+	padding: 8px 16px;
+	background-color: tomato;
+	color: white;
+	text-decoration: none;
+	border: none;
+	text-decoration: none;
+}
+
+.grid-justify {
+	margin-top: 2%;
+	display: grid;
+	justify-content: center;
+}
+
+.add-button {
+	margin-top: 10px;
+}
+
+.form-styles {
+	background-color: #F8F8F8;
+	padding: 32px;
+}
+
+.add-container {
+	display: grid;
+	justify-content: center;
+}
+
+table tr td{
+	text-decoration: none;
+	color: white;
+}

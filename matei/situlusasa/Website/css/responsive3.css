@@ -1,0 +1,42 @@
+@media screen and (max-width: 1024px) {
+
+    .grid {
+        display: block;
+    }
+
+    .left2>object {
+        display: none;
+    }
+
+    .left2 {
+        background-color: transparent;
+    }
+
+    .continut_right2 {
+        padding-top: 10%;
+    }
+
+    body {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .left2>.logo {
+        margin: 5px 14px;
+        font-size: 26px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .continut_right2 {
+        padding-top: 15%;
+    }
+
+    .grid-right2 {
+    	width: 95%;
+    }
+}

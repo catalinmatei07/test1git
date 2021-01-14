@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    background-color: ghostwhite;
+}
+
+.content_grid div input{
+    border: 1px solid orange;
+    width: 150px;
+}
+
+
+.content_grid div{
+    padding: 20px;
+}

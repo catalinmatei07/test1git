@@ -1,0 +1,105 @@
+<html>
+   <head>
+      <title>Add Data</title>
+   </head>
+   <style>
+	   table{
+		font-family: Arial, Helvetica, sans-serif;
+		border-collapse: collapse;
+		width: 30%;
+	    margin: auto;
+	    margin-top: 30px;
+		border-radius: 5px;
+    	background-color: #f2f2f2;
+		color: #232323;
+		border: none;
+	   }
+	   td {
+		padding: 10px;
+	   }
+	   input[type=text], select {
+    	width: 100%;
+ 		padding: 12px 20px;
+    	margin: 8px 0;
+    	display: inline-block;
+    	border: 1px solid #ccc;
+    	border-radius: 4px;
+    	box-sizing: border-box;
+	   }
+	   .btn{
+		background-color: #c4c4c4; 
+        border: none;
+        color: white;
+        padding: 10px 30px;
+        text-align: center;
+        border-radius: 6px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+	   }
+   </style>
+   <body>
+      <div class="content">
+		<a href="index.php">Inapoi la tabela</a>
+      	<br/><br/>
+         <div class="form-content">
+            <form action="add.php" method="post" name="form1">
+               <table>
+                  <div class="table-content">
+                     <div class="pad1">
+                        <tr>
+                           <td>Nume</td>
+                           <td><input type="text" name="Nume"></td>
+                        </tr>
+                     </div>
+                     <div class="pad1">
+                        <tr>
+                           <td>Prenume</td>
+                           <td><input type="text" name="Prenume"></td>
+                        </tr>
+                     </div>
+                     <div class="pad1">
+                        <tr>
+                           <td>Adresa</td>
+                           <td><input type="text" name="Adresa"></td>
+                        </tr>
+                     </div>
+                     <div class="pad1">
+                        <tr>
+                           <td>Email</td>
+                           <td><input type="text" name="Email"></td>
+                        </tr>
+                     </div>
+                     <div class="pad1">
+                        <tr>
+                           <td>Data nasterii (ex. 1997-09-25)</td>
+                           <td><input type="text" name="Data_nasterii"></td>
+                        </tr>
+                     </div>
+                     <div class="pad1">
+                        <tr>
+                           <td>Sex</td>
+                           <td><input type="text" name="Sex"></td>
+                        </tr>
+                     </div>
+                     <div class="pad1">
+                        <tr>
+                           <td>Media BAC</td>
+                           <td><input type="text" name="Media_bac"></td>
+                        </tr>
+                     </div>
+                     <div class="pad1">
+                        <tr>
+                           <td>
+                           </td>
+                           <td><input type="submit" class="btn" name="Submit" value="Adauga un utilizator nou"></td>
+                        </tr>
+                     </div>
+                  </div>
+               </table>
+            </form>
+         </div>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,81 @@
+@media screen and (max-width: 1024px) {
+
+    .grid {
+        display: block;
+    }
+
+    .right {
+        display: none;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    .continut_left {
+        padding-top: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .continut_left {
+        padding-top: 15%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .left>.logo {
+        margin: 5px 14px;
+        font-size: 26px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .buton_google {
+        margin-top: 10px;
+    }
+
+    .continut_left>h3 {
+        font-size: 12px;
+        padding-top: 25px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .buton_google {
+        width: 345px;
+    }
+
+    .buton_google p {
+        padding-left: 70px;
+    }
+
+    .continut_left>h4 {
+        margin-left: -265px;
+    }
+
+    #ups {
+        margin-left: -305px;
+    }
+
+    #form {
+        width: 345px;
+    }
+
+    .checkbox {
+        margin-left: -210px;
+    }
+
+    .logare {
+        width: 345px;
+    }
+}
